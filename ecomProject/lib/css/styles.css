@@ -3,3 +3,34 @@
 .test {
     color:  red;
 }
+
+.nav__button--green{
+    background: #1DB954;
+
+}
+
+.nav__button--green:hover{
+    background: #19A24A
+}
+
+.nav_style{
+    background: #141B24;
+    border-bottom: #1DB954 10px solid;
+}
+
+.carousel-bordercolor {
+    border-bottom: #1DB954 10px solid;
+}
+
+.nav__searchbar--long {
+    width: 100%;
+}
+
+.carousel_img_styles {
+    /* max-height: 700px; */
+    height: 700px;
+}
+body {
+    background:#19222C;
+}
+
