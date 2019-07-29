@@ -30,12 +30,10 @@ body,html {
     
 }
 
-
 .wrapper{
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-
 }
 
 /* carousel styles */
@@ -82,7 +80,7 @@ body,html {
 }
 /* Just Logo */
 .logo {
-    background-image: url("/lib/images/logo.png");
+    background-image: url("lib/images/logo.png");
     background-repeat:no-repeat;
     display: inline-block;
     height: 170px;
