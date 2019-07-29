@@ -1,36 +1,141 @@
 /* This is going to be used for any modified/custom styling */
 
-.test {
-    color:  red;
+/* page styles */
+body {
+    background:#19222C;
 }
 
+body,html {
+    margin: auto;
+    max-width: 90%;
+}
+
+/* Single Styles */
+.bottom__border{
+    border-bottom: #1DB954 10px solid;
+}
+
+/* Nav Styling */
 .nav__button--green{
     background: #1DB954;
-
 }
 
 .nav__button--green:hover{
     background: #19A24A
 }
 
-.nav_style{
+.nav__style{
     background: #141B24;
     border-bottom: #1DB954 10px solid;
+    
 }
 
-.carousel-bordercolor {
-    border-bottom: #1DB954 10px solid;
+
+.wrapper{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
 }
 
-.nav__searchbar--long {
-    width: 100%;
-}
-
+/* carousel styles */
 .carousel_img_styles {
     /* max-height: 700px; */
     height: 700px;
 }
-body {
-    background:#19222C;
+
+/* main body styles */
+
+
+
+.main__body{
+   margin: auto; 
+   max-width: 85% ;
+   display: flex;
+   flex-flow: wrap column;
+   align-items: center;
 }
+
+/* Discription styles */
+
+.main__discription{
+    margin: 5% 0 5% 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.main__discription h1 , p{
+    color: white;
+}
+
+.main__discription p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.wave {
+    display: inline-block;
+    height: 16px;
+    width: 168px;
+    margin: 10px;
+}
+/* Just Logo */
+.logo {
+    background-image: url("/lib/images/logo.png");
+    background-repeat:no-repeat;
+    display: inline-block;
+    height: 170px;
+    width: 300px;
+    
+}
+
+.main__whoweare {
+    
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 100%;
+}
+
+.whoweare__news, .whoweare__merch, .whoweare__gear{
+    background: #161E27;
+    width: 220px;
+    height: 250px; 
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.whoweare__news h2, .whoweare__merch h2, .whoweare__gear h2{
+   margin-top: auto;
+   color: #1DB954;
+   font-size: 29px
+}
+
+.whoweare__news ul li, .whoweare__merch ul li, .whoweare__gear ul li {
+    border-bottom: 1px solid #19A24A;
+    color: #1DB954;
+    padding-bottom: .25em;
+    text-decoration: none;
+    list-style: none;
+}
+  
+.whoweare__news ul li:hover, .whoweare__merch ul li:hover, .whoweare__gear ul li:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 20%;
+    border-bottom: 0;
+    padding-bottom: .3em;
+    text-decoration: none;
+    color: #19A24A
+  }
+
+  .whoweare__news ul, .whoweare__merch ul, .whoweare__gear ul{
+      padding: 0;
+  }
 
